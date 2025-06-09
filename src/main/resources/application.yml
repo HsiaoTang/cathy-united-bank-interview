@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: cathy-united-bank-interview
+  datasource:
+    hikari:
+      jdbc-url: jdbc:h2:file:./data/cub
+      driver-class-name: org.h2.Driver
+      username: cubAdmin
+      password: cubAdmin
+  flyway:
+    enabled: true
+    schemas: DOMAIN
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+
+exchange-rate:
+  source:
+    url: https://kengp3.github.io/blog/coindesk.json
+external-api-client:
+  connect-timeout: 5000
+  read-timeout: 10000
