@@ -68,7 +68,7 @@
 **GET** `/read?id={uuid}`
 
 * 以 query string 傳入 `id`
-* **Response**: `ExchangeRate`
+* **Response**: [`ExchangeRate`](#exchangerate)
 
 ---
 
@@ -86,7 +86,7 @@
 }
 ```
 
-* **Response**: `ExchangeRate`
+* **Response**: [`ExchangeRate`](#exchangerate)
 
 ---
 
