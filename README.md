@@ -50,12 +50,12 @@
 
 ```json
 {
-    "currencyCode": "GBP",
-    "currencyNameZh": "英鎊",
-    "currencySymbol": "&pound;",
-    "rate": 43984.0203,
-    "description": "British Pound Sterling",
-    "rateTime": "2024-09-02T15:07:20"
+  "currencyCode": "JPY",
+  "currencyNameZh": "日圓",
+  "currencySymbol": "¥",
+  "rate": 154.25,
+  "description": "Japanese Yen",
+  "rateTime": "2024-09-02T15:07:20"
 }
 ```
 
