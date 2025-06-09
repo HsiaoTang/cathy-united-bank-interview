@@ -162,5 +162,3 @@
 * JSON 序列化請確認支援 `LocalDateTime`（註冊 `jackson-datatype-jsr310`）
 
 ---
-
-需要我根據你的 DTO 實作細節或 `DefaultResponse` 做進一步補充說明嗎？
